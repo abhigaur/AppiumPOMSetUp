@@ -1,0 +1,107 @@
+17:10:16,007 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:10:16,015 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:10:16,016 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+17:10:16,025 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:10:16,026 DEBUG MainClientExec:234 - Opening connection {}->http://127.0.0.1:4723
+17:10:16,028 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to /127.0.0.1:4723
+17:10:16,029 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 127.0.0.1:55818<->127.0.0.1:4723
+17:10:16,030 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:10:16,030 DEBUG MainClientExec:255 - Executing request POST /wd/hub/session HTTP/1.1
+17:10:16,030 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:10:16,030 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:10:16,031 DEBUG headers:135 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+17:10:16,032 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:10:16,032 DEBUG headers:138 - http-outgoing-0 >> User-Agent: selenium/3.12.0 (java windows)
+17:10:16,032 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 444
+17:10:16,032 DEBUG headers:138 - http-outgoing-0 >> Host: 127.0.0.1:4723
+17:10:16,033 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:10:16,033 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:10:16,033 DEBUG wire:72 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+17:10:16,033 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:10:16,033 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: selenium/3.12.0 (java windows)[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 444[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "{[\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "  "desiredCapabilities": {"appActivity":"com.myntra.android.activities.LoginRegisterActivity","appPackage":"com.myntra.android","deviceName":"Android","platformName":"Android"},[\n]"
+17:10:16,034 DEBUG wire:72 - http-outgoing-0 >> "  "capabilities": {[\n]"
+17:10:16,035 DEBUG wire:72 - http-outgoing-0 >> "    "desiredCapabilities": {"appActivity":"com.myntra.android.activities.LoginRegisterActivity","appPackage":"com.myntra.android","deviceName":"Android","platformName":"Android"},[\n]"
+17:10:16,035 DEBUG wire:72 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+17:10:16,035 DEBUG wire:72 - http-outgoing-0 >> "      {"platformName":"android"}[\n]"
+17:10:16,035 DEBUG wire:72 - http-outgoing-0 >> "    ][\n]"
+17:10:16,035 DEBUG wire:72 - http-outgoing-0 >> "  }[\n]"
+17:10:16,035 DEBUG wire:86 - http-outgoing-0 >> "}"
+17:10:28,581 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:10:28,581 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:10:28,581 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:10:28,581 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:10:28,582 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:10:28,582 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:10:28,582 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:10:28,582 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 730[\r][\n]"
+17:10:28,582 DEBUG wire:72 - http-outgoing-0 << "ETag: W/"2da-wwfD1BFTXSLHDiT+9DFISBrN/fg"[\r][\n]"
+17:10:28,583 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 03 Oct 2018 11:40:28 GMT[\r][\n]"
+17:10:28,583 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:10:28,583 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:10:28,583 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appActivity":"com.myntra.android.activities.LoginRegisterActivity","appPackage":"com.myntra.android","deviceName":"Android","platformName":"Android"},"appActivity":"com.myntra.android.activities.LoginRegisterActivity","appPackage":"com.myntra.android","deviceName":"ZY3229JL4T","platformName":"Android","deviceUDID":"ZY3229JL4T","platformVersion":"7.1.1","deviceScreenSize":"1080x1920","deviceModel":"Moto G (5S) Plus","deviceManufacturer":"motorola"},"sessionId":"d7856197-91b6-467a-8078-0a4999889e89"}"
+17:10:28,586 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:10:28,587 DEBUG headers:127 - http-outgoing-0 << Content-Length: 730
+17:10:28,588 DEBUG headers:127 - http-outgoing-0 << ETag: W/"2da-wwfD1BFTXSLHDiT+9DFISBrN/fg"
+17:10:28,588 DEBUG headers:127 - http-outgoing-0 << Date: Wed, 03 Oct 2018 11:40:28 GMT
+17:10:28,588 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:10:28,592 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:10:28,595 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+17:10:28,595 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:10:28,674 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:10:28,675 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:10:28,675 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:10:28,675 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:10:28,675 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:10:28,675 DEBUG MainClientExec:255 - Executing request DELETE /wd/hub/session/d7856197-91b6-467a-8078-0a4999889e89 HTTP/1.1
+17:10:28,675 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:10:28,675 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:10:28,675 DEBUG headers:135 - http-outgoing-0 >> DELETE /wd/hub/session/d7856197-91b6-467a-8078-0a4999889e89 HTTP/1.1
+17:10:28,675 DEBUG headers:138 - http-outgoing-0 >> User-Agent: selenium/3.12.0 (java windows)
+17:10:28,676 DEBUG headers:138 - http-outgoing-0 >> Host: 127.0.0.1:4723
+17:10:28,676 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:10:28,676 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "DELETE /wd/hub/session/d7856197-91b6-467a-8078-0a4999889e89 HTTP/1.1[\r][\n]"
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: selenium/3.12.0 (java windows)[\r][\n]"
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:10:28,676 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:10:33,456 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:10:33,457 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:10:33,457 DEBUG wire:72 - http-outgoing-0 << "ETag: W/"4c-DhMIPJ3ml0MAuSUY9fitaZY2RSs"[\r][\n]"
+17:10:33,457 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 03 Oct 2018 11:40:33 GMT[\r][\n]"
+17:10:33,457 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:10:33,457 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:10:33,457 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"d7856197-91b6-467a-8078-0a4999889e89"}"
+17:10:33,457 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:10:33,457 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:10:33,457 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:10:33,457 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << ETag: W/"4c-DhMIPJ3ml0MAuSUY9fitaZY2RSs"
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << Date: Wed, 03 Oct 2018 11:40:33 GMT
+17:10:33,458 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:10:33,458 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:10:33,458 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+17:10:33,458 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:10:33,461 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS

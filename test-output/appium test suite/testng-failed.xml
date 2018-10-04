@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [appium test suite]">
+  <test name="Launch myntra(failed)">
+    <classes>
+      <class name="testCases.TestCases">
+        <methods>
+          <include name="LaunchTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TestCases -->
+    </classes>
+  </test> <!-- Launch myntra(failed) -->
+</suite> <!-- Failed suite [appium test suite] -->
